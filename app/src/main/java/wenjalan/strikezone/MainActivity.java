@@ -1,23 +1,22 @@
 package wenjalan.strikezone;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.SurfaceView;
 import android.view.WindowManager;
 
-import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.CameraBridgeViewBase;
-import org.opencv.android.JavaCameraView;
-import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
+import org.opencv.core.Point;
+import org.opencv.core.Scalar;
+import org.opencv.imgproc.Imgproc;
 
 public class MainActivity extends Activity implements CameraBridgeViewBase.CvCameraViewListener2 {
 
-    private static final String TAG = "HelloOpenCV";
+    private static final String TAG = "StrikeZone";
     private CameraBridgeViewBase mOpenCvCameraView;
 
     static {
@@ -29,30 +28,13 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
         }
     }
 
-//    private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
-//        @Override
-//        public void onManagerConnected(int status) {
-//            switch (status) {
-//                case LoaderCallbackInterface.SUCCESS:
-//                {
-//                    Log.i(TAG, "OpenCV loaded successfully");
-//                    mOpenCvCameraView.enableView();
-//                } break;
-//                default:
-//                {
-//                    Log.d(TAG, "OpenCV manager not found");
-//                    super.onManagerConnected(status);
-//                } break;
-//            }
-//        }
-//    };
-
     @Override
     public void onResume()
     {
         super.onResume();
         // OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_4_1_0, this, mLoaderCallback);
         OpenCVLoader.initDebug();
+        mOpenCvCameraView.enableView();
     }
 
     @Override
@@ -64,9 +46,6 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.CameraView);
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
-
-        // set the size
-        // mOpenCvCameraView.set
 
         // turn on the camera
         mOpenCvCameraView.enableView();
@@ -80,20 +59,23 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
             mOpenCvCameraView.disableView();
     }
 
+    @Override
     public void onDestroy() {
         super.onDestroy();
         if (mOpenCvCameraView != null)
             mOpenCvCameraView.disableView();
     }
 
-    public void onCameraViewStarted(int width, int height) {
-    }
-
-    public void onCameraViewStopped() {
-    }
-
+    @Override
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
-        return inputFrame.rgba();
+        Log.d(TAG, "Got a frame");
+        return null;
     }
+
+    @Override
+    public void onCameraViewStarted(int width, int height) {}
+
+    @Override
+    public void onCameraViewStopped() { }
 
 }
