@@ -11,6 +11,7 @@ import org.opencv.android.OpenCVLoader;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
+import org.opencv.core.Rect;
 import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
 
@@ -43,7 +44,7 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_main);
-        mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.CameraView);
+        mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.MainCameraView);
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
 
@@ -66,10 +67,20 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
             mOpenCvCameraView.disableView();
     }
 
+    Mat mRgba;
+
     @Override
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
         Log.d(TAG, "Got a frame");
-        return null;
+        mRgba = inputFrame.rgba();
+
+        Rect rect = new Rect(10, 10, 500, 500);
+        Scalar color = new Scalar(255, 0, 0, 255);
+
+        Imgproc.rectangle(mRgba, rect, color, 5);
+
+        // return the mat
+        return mRgba;
     }
 
     @Override

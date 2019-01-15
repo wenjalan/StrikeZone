@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
 
         <org.opencv.android.JavaCameraView
-            android:id="@+id/CameraView"
+            android:id="@+id/MainCameraView"
             android:layout_width="1440px"
             android:layout_height="1920px"
             android:visibility="gone"
