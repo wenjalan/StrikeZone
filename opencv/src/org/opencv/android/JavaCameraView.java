@@ -1,6 +1,5 @@
 package org.opencv.android;
 
-import java.lang.reflect.Method;
 import java.util.List;
 
 import android.content.Context;
@@ -141,7 +140,7 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
             try {
                 Camera.Parameters params = mCamera.getParameters();
                 Log.d(TAG, "getSupportedPreviewSizes()");
-                List<android.hardware.Camera.Size> sizes = params.getSupportedPreviewSizes();
+                List<Camera.Size> sizes = params.getSupportedPreviewSizes();
 
                 if (sizes != null) {
                     /* Select the size that fits surface considering maximum size allowed */
@@ -165,7 +164,7 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
                     Log.d(TAG, "Set preview size to " + Integer.valueOf((int)frameSize.width) + "x" + Integer.valueOf((int)frameSize.height));
                     params.setPreviewSize((int)frameSize.width, (int)frameSize.height);
 
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH && !android.os.Build.MODEL.equals("GT-I9100"))
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH && !Build.MODEL.equals("GT-I9100"))
                         params.setRecordingHint(true);
 
                     List<String> FocusModes = params.getSupportedFocusModes();
@@ -210,15 +209,10 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
                         mSurfaceTexture = new SurfaceTexture(MAGIC_TEXTURE_ID);
                         mCamera.setPreviewTexture(mSurfaceTexture);
                     } else
-                        mCamera.setPreviewDisplay(null);
+                       mCamera.setPreviewDisplay(null);
 
                     /* Finally we are ready to start the preview */
                     Log.d(TAG, "startPreview");
-
-                    // rotate the view
-                    reorientDisplay(mCamera, 90);
-                    mCamera.setPreviewDisplay(getHolder());
-
                     mCamera.startPreview();
                 }
                 else
@@ -230,18 +224,6 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
         }
 
         return result;
-    }
-
-    protected void reorientDisplay(Camera cam, int degrees) {
-        Method downPoly;
-        try {
-            downPoly = cam.getClass().getMethod("setDisplayOrientation", int.class);
-            if (downPoly != null) {
-                downPoly.invoke(cam, degrees);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
     protected void releaseCamera() {

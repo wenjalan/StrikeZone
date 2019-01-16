@@ -70,17 +70,17 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
         int count = attrs.getAttributeCount();
         Log.d(TAG, "Attr count: " + Integer.valueOf(count));
 
-        // TypedArray styledAttrs = getContext().obtainStyledAttributes(attrs, R.styleable.CameraBridgeViewBase);
-        // if (styledAttrs.getBoolean(R.styleable.CameraBridgeViewBase_show_fps, false))
-        //     enableFpsMeter();
+//        TypedArray styledAttrs = getContext().obtainStyledAttributes(attrs, R.styleable.CameraBridgeViewBase);
+//        if (styledAttrs.getBoolean(R.styleable.CameraBridgeViewBase_show_fps, false))
+//            enableFpsMeter();
 
-        // mCameraIndex = styledAttrs.getInt(R.styleable.CameraBridgeViewBase_camera_id, -1);
+//        mCameraIndex = styledAttrs.getInt(R.styleable.CameraBridgeViewBase_camera_id, -1);
         mCameraIndex = 99;
 
         getHolder().addCallback(this);
         mMaxWidth = MAX_UNSPECIFIED;
         mMaxHeight = MAX_UNSPECIFIED;
-        // styledAttrs.recycle();
+//        styledAttrs.recycle();
     }
 
     /**
