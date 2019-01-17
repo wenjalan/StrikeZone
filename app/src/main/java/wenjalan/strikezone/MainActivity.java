@@ -18,6 +18,12 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
     private static final String TAG = "StrikeZone";
     private CameraBridgeViewBase mOpenCvCameraView;
 
+    // strikezone properties
+    public static final int STRIKEZONE_WIDTH = 250;
+    public static final int STRIKEZONE_HEIGHT = 500;
+    public static final int STRIKEZONE_HEIGHT_OFFSET = 100;
+    public static final int STRIKEZONE_WIDTH_OFFSET = 0;
+
     static {
         if (OpenCVLoader.initDebug()) {
             Log.d(TAG, "OpenCV initialized successfully");
@@ -72,10 +78,18 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
         Log.d(TAG, "Got a frame");
         mRgba = inputFrame.rgba();
 
-        Rect rect = new Rect(10, 10, 500, 500);
-        Scalar color = new Scalar(255, 0, 0, 255);
+        int height = mRgba.height();
+        int width = mRgba.width();
 
-        Imgproc.rectangle(mRgba, rect, color, 5);
+        Rect rect = new Rect(
+                width / 2 - (STRIKEZONE_HEIGHT / 2) + STRIKEZONE_HEIGHT_OFFSET,
+                height / 2 - (STRIKEZONE_WIDTH / 2) + STRIKEZONE_WIDTH_OFFSET,
+                STRIKEZONE_HEIGHT,
+                STRIKEZONE_WIDTH);
+        
+        Scalar color = new Scalar(0, 255, 255, 100);
+
+        Imgproc.rectangle(mRgba, rect, color, 2);
 
         // return the mat
         return mRgba;

@@ -18,16 +18,16 @@
     <list default="true" id="fce9d26d-30bc-4f7d-a9a8-5a02e9b5b424" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,25 +57,25 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="382">
+              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraBridgeViewBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CameraBridgeViewBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
-              <caret line="450" column="17" lean-forward="true" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
+              <caret line="438" column="16" selection-start-line="438" selection-start-column="16" selection-end-line="450" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -3460,10 +3460,10 @@
         <option value="$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/opencv/DetectionBasedTracker.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
         <option value="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -3742,7 +3742,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java</url>
-          <line>69</line>
+          <line>75</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -4068,13 +4068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -4095,13 +4088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/AsyncServiceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state />
@@ -4113,14 +4099,28 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
-          <caret line="450" column="17" lean-forward="true" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
+          <caret line="438" column="16" selection-start-line="438" selection-start-column="16" selection-end-line="450" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
         </state>
       </provider>
     </entry>
