@@ -16,617 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce9d26d-30bc-4f7d-a9a8-5a02e9b5b424" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrikeZone.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/wenjalan/strikezone/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_java4.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_java4.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libopencv_java4.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/wenjalan/strikezone/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/org/opencv/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/generated/source/aidl/debug/org/opencv/engine/OpenCVEngineInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/generated/source/buildConfig/debug/org/opencv/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$3$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Camera2Renderer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Camera2Renderer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Camera2Renderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$CvCameraViewFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$ListItemAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraGLRendererBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraGLSurfaceView$CameraTextureListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraGLSurfaceView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/FpsMeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/InstallCallbackInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$JavaCamera2Frame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$CameraWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$JavaCameraFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$JavaCameraSizeAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/LoaderCallbackInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/OpenCVLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/StaticHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/Calib3d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/StereoBM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/StereoMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/StereoSGBM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Algorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Core$MinMaxLocResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Core.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/CvException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/CvType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/DMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/KeyPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Mat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfByte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfDMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfFloat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfFloat4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfFloat6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfInt4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfKeyPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfPoint2f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfPoint3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfPoint3f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfRect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfRect2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/MatOfRotatedRect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Point3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Range.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Rect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Rect2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/RotatedRect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Scalar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/TermCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/core/TickMeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/dnn/DictValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/dnn/Dnn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/dnn/Layer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/dnn/Net.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/engine/OpenCVEngineInterface$Stub$Proxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/engine/OpenCVEngineInterface$Stub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/engine/OpenCVEngineInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/AKAZE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/AgastFeatureDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BFMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BOWImgDescriptorExtractor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BOWKMeansTrainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BOWTrainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BRISK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/DescriptorMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/FastFeatureDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/Feature2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/Features2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/FlannBasedMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/GFTTDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/KAZE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/MSER.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/ORB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/Params.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgcodecs/Imgcodecs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/CLAHE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/GeneralizedHough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/GeneralizedHoughBallard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/GeneralizedHoughGuil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/Imgproc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/LineSegmentDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/Moments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/Subdiv2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/ANN_MLP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/Boost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/DTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/EM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/KNearest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/LogisticRegression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/Ml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/NormalBayesClassifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/ParamGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/RTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/SVM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/SVMSGD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/StatModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/ml/TrainData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/BaseCascadeClassifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/CascadeClassifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/HOGDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/Objdetect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/QRCodeDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/osgi/OpenCVInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/osgi/OpenCVNativeLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/AlignExposures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/AlignMTB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/CalibrateCRF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/CalibrateDebevec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/CalibrateRobertson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/MergeDebevec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/MergeExposures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/MergeMertens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/MergeRobertson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/Photo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/Tonemap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/TonemapDrago.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/TonemapMantiuk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/photo/TonemapReinhard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/utils/Converters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/BackgroundSubtractor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/BackgroundSubtractorKNN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/BackgroundSubtractorMOG2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/DISOpticalFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/DenseOpticalFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/FarnebackOpticalFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/KalmanFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/SparseOpticalFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/SparsePyrLKOpticalFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/VariationalRefinement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/videoio/VideoCapture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/videoio/VideoWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/videoio/Videoio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/BaseLoaderCallback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/Camera2Renderer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewFrame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.ListItemAccessor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraGLRendererBase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraGLSurfaceView.CameraTextureListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraGLSurfaceView.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/CameraRenderer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/FpsMeter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/InstallCallbackInterface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/JavaCamera2View.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/JavaCameraView.JavaCameraSizeAccessor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/JavaCameraView.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/LoaderCallbackInterface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/OpenCVLoader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/Utils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/android/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/Calib3d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/StereoBM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/StereoMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/StereoSGBM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/calib3d/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Algorithm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Core.MinMaxLocResult.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Core.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/CvException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/CvType.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/DMatch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/KeyPoint.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Mat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfByte.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfDMatch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfDouble.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfFloat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfFloat4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfFloat6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfInt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfInt4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfKeyPoint.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfPoint.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfPoint2f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfPoint3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfPoint3f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfRect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfRect2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/MatOfRotatedRect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Point.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Point3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Range.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Rect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Rect2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/RotatedRect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Scalar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/Size.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/TermCriteria.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/TickMeter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/core/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/DictValue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/Dnn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/Layer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/Net.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/dnn/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/AKAZE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/AgastFeatureDetector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/BFMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/BOWImgDescriptorExtractor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/BOWKMeansTrainer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/BOWTrainer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/BRISK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/DescriptorMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/FastFeatureDetector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/Feature2D.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/Features2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/FlannBasedMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/GFTTDetector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/KAZE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/MSER.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/ORB.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/Params.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/features2d/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgcodecs/Imgcodecs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgcodecs/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgcodecs/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgcodecs/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/CLAHE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/GeneralizedHough.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/GeneralizedHoughBallard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/GeneralizedHoughGuil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/Imgproc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/LineSegmentDetector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/Moments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/Subdiv2D.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/imgproc/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/ANN_MLP.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/Boost.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/DTrees.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/EM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/KNearest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/LogisticRegression.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/Ml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/NormalBayesClassifier.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/ParamGrid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/RTrees.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/SVM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/SVMSGD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/StatModel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/TrainData.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/ml/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/BaseCascadeClassifier.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/CascadeClassifier.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/HOGDescriptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/Objdetect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/QRCodeDetector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/objdetect/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/osgi/OpenCVInterface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/osgi/OpenCVNativeLoader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/osgi/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/osgi/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/osgi/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/AlignExposures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/AlignMTB.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/CalibrateCRF.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/CalibrateDebevec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/CalibrateRobertson.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/MergeDebevec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/MergeExposures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/MergeMertens.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/MergeRobertson.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/Photo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/Tonemap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/TonemapDrago.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/TonemapMantiuk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/TonemapReinhard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/photo/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/utils/Converters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/utils/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/utils/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/utils/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/BackgroundSubtractor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/BackgroundSubtractorKNN.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/BackgroundSubtractorMOG2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/DISOpticalFlow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/DenseOpticalFlow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/FarnebackOpticalFlow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/KalmanFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/SparseOpticalFlow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/SparsePyrLKOpticalFlow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/VariationalRefinement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/Video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/video/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/videoio/VideoCapture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/videoio/VideoWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/videoio/Videoio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/videoio/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/videoio/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/org/opencv/videoio/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/javadoc/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/opencv.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/res/values/attrs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/AsyncServiceHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/BaseLoaderCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/Camera2Renderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLRendererBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/FpsMeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/InstallCallbackInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCamera2View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/LoaderCallbackInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/StaticHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/android/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/calib3d/Calib3d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/calib3d/StereoBM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/calib3d/StereoMatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/calib3d/StereoSGBM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Algorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Core.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/CvException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/CvType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/DMatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/KeyPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Mat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfByte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfDMatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfDouble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfFloat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfFloat4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfFloat6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfInt4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfKeyPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfPoint2f.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfPoint3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfPoint3f.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfRect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfRect2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/MatOfRotatedRect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Point3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Range.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Rect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Rect2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/RotatedRect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Scalar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/Size.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/TermCriteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/core/TickMeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/dnn/DictValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/dnn/Dnn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/dnn/Layer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/dnn/Net.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/engine/OpenCVEngineInterface.aidl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/AKAZE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/AgastFeatureDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/BFMatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/BOWImgDescriptorExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/BOWKMeansTrainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/BOWTrainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/BRISK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/DescriptorMatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/FastFeatureDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/Feature2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/Features2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/FlannBasedMatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/GFTTDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/KAZE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/MSER.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/ORB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/features2d/Params.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgcodecs/Imgcodecs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/CLAHE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/GeneralizedHough.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/GeneralizedHoughBallard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/GeneralizedHoughGuil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Imgproc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/LineSegmentDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Moments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Subdiv2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/ANN_MLP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/Boost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/DTrees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/EM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/KNearest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/LogisticRegression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/Ml.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/NormalBayesClassifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/ParamGrid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/RTrees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/SVM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/SVMSGD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/StatModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/ml/TrainData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/objdetect/BaseCascadeClassifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/objdetect/CascadeClassifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/objdetect/HOGDescriptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/objdetect/Objdetect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/objdetect/QRCodeDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/osgi/OpenCVInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/osgi/OpenCVNativeLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/AlignExposures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/AlignMTB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/CalibrateCRF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/CalibrateDebevec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/CalibrateRobertson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/MergeDebevec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/MergeExposures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/MergeMertens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/MergeRobertson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/Photo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/Tonemap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/TonemapDrago.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/TonemapMantiuk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/photo/TonemapReinhard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/utils/Converters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/BackgroundSubtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/BackgroundSubtractorKNN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/BackgroundSubtractorMOG2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/DISOpticalFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/DenseOpticalFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/FarnebackOpticalFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/KalmanFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/SparseOpticalFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/SparsePyrLKOpticalFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/VariationalRefinement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/video/Video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/videoio/VideoCapture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/videoio/VideoWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/src/org/opencv/videoio/Videoio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/Placeholder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/CameraManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -648,7 +43,50 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="105" column="34" lean-forward="true" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#181#205#0" expanded="true" />
+                <element signature="e#618#775#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#2184#2365#0" expanded="true" />
+                <element signature="e#2364#2365#0" expanded="true" />
+                <element signature="e#2916#2917#0" expanded="true" />
+                <element signature="e#2952#2953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraPreview.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraPreview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -705,10 +143,6 @@
                 <option name="name" value=":app" />
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":opencv" />
-                <option name="path" value="$PROJECT_DIR$/opencv" />
-              </ExternalProjectPojo>
             </list>
           </value>
         </entry>
@@ -723,10 +157,6 @@
                 <option name="description" value="Displays the sub-projects of root project 'StrikeZone'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -751,10 +181,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -802,10 +228,6 @@
                 <option name="description" value="Deletes the build cache directory." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="cleanBuildCache" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assembleDefault" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -863,10 +285,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -875,15 +293,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageAppClassesDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -892,18 +302,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="verifyReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -954,10 +352,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateReleaseRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -998,20 +392,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="checkReleaseLibraries" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractReleaseAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1118,10 +503,6 @@
                 <option name="name" value="generateDebugFeatureMetadata" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintRelease" />
@@ -1171,10 +552,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1214,19 +591,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="writeReleaseApplicationId" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeReleaseConsumerProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1238,15 +607,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates all Debug bundles." />
@@ -1304,15 +665,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="bundleDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'StrikeZone'." />
@@ -1371,18 +724,8 @@
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractDebugAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="checkDebugClasspath" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in debug." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bundleDebugAar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1442,10 +785,6 @@
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createFullJarDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -1465,10 +804,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexBuilderForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1609,11 +944,6 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in release." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bundleReleaseAar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -1628,10 +958,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageAppClassesDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createFullJarRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -2557,770 +1883,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/opencv">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':opencv'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeReleaseConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="validateSigningDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processReleaseJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="lintDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportBuildArtifactsRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':opencv'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':opencv'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugUnitTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="bundleDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformAndroidTestDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="deviceCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':opencv'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="lint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugUnitTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformTestDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mainApkListPersistenceDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugAndroidTestBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processDebugUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build cache directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="cleanBuildCache" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleDefault" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':opencv'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformMain" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Debug builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processDebugAndroidTestManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugUnitTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="preDebugAndroidTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="extractDebugAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processDebugAndroidTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in debug." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="bundleDebugAar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processReleaseUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportBuildArtifactsDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="javaPreCompileDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="splitsDiscoveryTaskDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="checkReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="javaPreCompileDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="verifyReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeReleaseJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="prepareLintJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="deviceAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="uninstallDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':opencv'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="preReleaseBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all variants of all applications and secondary packages." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="createFullJarDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformTestRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseUnitTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="installDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformClassesWithDexBuilderForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="javaPreCompileReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="createMockableJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="javaPreCompileRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="splitsDiscoveryTaskRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all device checks on currently connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="connectedCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for debug on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="connectedDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="uninstallAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all the Test applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on all variants and applies any safe suggestions to the source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="lintFix" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="extractReleaseAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="preDebugUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileLint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugAndroidTestResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the Android dependencies of the project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="androidDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAndroidTestNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformDexArchiveWithExternalLibsDexMergerForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="extractProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processDebugJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="consumeConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="preReleaseUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseUnitTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="javaPreCompileDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="testDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="connectedAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="reportSourceSetTransformTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="preBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileReleaseAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="lintRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in release." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="bundleReleaseAar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':opencv'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':opencv'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="checkDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prints out all the source sets defined in this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="sourceSets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="createFullJarRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the signing info for each variant." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="signingReport" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAndroidTestAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="preDebugBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Release builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="assembleRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="resolveConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="mergeDebugConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="compileDebugAndroidTestRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="processDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="packageDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="generateReleaseResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':opencv'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/opencv" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3999,10 +2561,14 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/CameraManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraPreview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraManager.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -4024,7 +2590,28 @@
             </path>
             <path>
               <item name="StrikeZone" type="1abcf292:AndroidViewProjectNode" />
-              <item name="opencv" type="feadf853:AndroidModuleNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="StrikeZone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="strikezone" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StrikeZone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="strikezone" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StrikeZone" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="strikezone" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="hardware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StrikeZone" type="1abcf292:AndroidViewProjectNode" />
@@ -4034,24 +2621,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="StrikeZone" type="b2602c69:ProjectViewProjectNode" />
               <item name="StrikeZone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="StrikeZone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StrikeZone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="StrikeZone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StrikeZone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="opencv" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4064,6 +2641,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="9888d9365150373142" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
     <property name="last_opened_file_path" value="C:/SDK/OpenCV-android-sdk/sdk/java" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -4227,10 +2805,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
@@ -4243,20 +2822,20 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24697986" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32621083" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.517337" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3299712" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Preview" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
     </layout>
@@ -4270,42 +2849,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/AsyncServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -4313,78 +2858,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding>
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5780">
-          <caret line="368" column="17" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6205">
-          <caret line="390" selection-start-line="390" selection-end-line="390" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/opencv/DetectionBasedTracker.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/build.gradle" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -4392,159 +2879,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Imgproc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="3372" column="23" selection-start-line="3372" selection-start-column="23" selection-end-line="3372" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/core/Scalar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Imgproc.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/core/Scalar.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/opencv/DetectionBasedTracker.java" />
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding>
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraRenderer.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="430" column="17" selection-start-line="430" selection-start-column="17" selection-end-line="430" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="214" column="47" selection-start-line="214" selection-start-column="47" selection-end-line="214" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding>
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5780">
-          <caret line="368" column="17" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6205">
-          <caret line="390" selection-start-line="390" selection-end-line="390" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/opencv/DetectionBasedTracker.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/build.gradle" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -4552,89 +2920,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Imgproc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="3372" column="23" selection-start-line="3372" selection-start-column="23" selection-end-line="3372" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/core/Scalar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/imgproc/Imgproc.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/core/Scalar.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/opencv/DetectionBasedTracker.java" />
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding>
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/OpenCVLoader.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraRenderer.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5916">
-          <caret line="372" column="43" selection-start-line="372" selection-start-column="24" selection-end-line="372" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/AsyncServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/JavaCameraView.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/AsyncServiceHelper.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java" />
+    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="264">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraGLSurfaceView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraPreview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="250">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv/src/org/opencv/android/CameraBridgeViewBase.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="438" column="16" selection-start-line="438" selection-start-column="16" selection-end-line="450" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="199">
+          <caret line="105" column="34" lean-forward="true" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#181#205#0" expanded="true" />
+            <element signature="e#618#775#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#2184#2365#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2916#2917#0" expanded="true" />
+            <element signature="e#2952#2953#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
