@@ -7,6 +7,7 @@ import android.hardware.Camera;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
 
 // Manages the Camera functionality through Android
 @SuppressWarnings("ALL")
@@ -24,6 +25,9 @@ public class CameraManager {
     // the CameraPreview object
     protected CameraPreview cameraPreview;
 
+    // the FrameLayout for the ViewFinder
+    protected FrameLayout frameLayout;
+
     // the picture callback
     protected Camera.PictureCallback pictureCallback = new Camera.PictureCallback() {
         @Override
@@ -34,8 +38,9 @@ public class CameraManager {
     };
 
     // constructor
-    public CameraManager(Context context) {
+    public CameraManager(Context context, FrameLayout frameLayout) {
         this.context = context;
+        this.frameLayout = frameLayout;
         init();
     }
 
@@ -57,6 +62,10 @@ public class CameraManager {
 
         // create camera preview
         this.cameraPreview = new CameraPreview(this.context, this.camera);
+        this.frameLayout.addView(this.cameraPreview);
+
+        // start the camera
+        startCamera();
     }
 
     // sets the orientation of the camera
@@ -92,8 +101,20 @@ public class CameraManager {
         });
     }
 
+    // starts the camera
+    public void startCamera() {
+        if (camera != null) {
+            try {
+                camera.startPreview();
+            } catch (Exception e) {
+                Log.d(TAG, "Failed to start camera!");
+                e.printStackTrace();
+            }
+        }
+    }
+
     // releases the camera
-    public void release() {
+    public void releaseCamera() {
         if (camera != null) {
             camera.release();
             camera = null;
