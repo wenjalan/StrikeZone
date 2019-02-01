@@ -2,9 +2,11 @@ package wenjalan.strikezone.android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import android.widget.Button;
 import android.widget.FrameLayout;
 
 import wenjalan.strikezone.R;
@@ -35,7 +37,7 @@ public class Home extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        cameraManager.releaseCamera();
+        cameraManager.release();
     }
 
     // initialization
@@ -48,6 +50,15 @@ public class Home extends AppCompatActivity {
 
         // initialize the strike zone box
         initStrikeZoneBox();
+
+        // initialize recording button
+        Button captureButton = findViewById(R.id.CaptureButton);
+        captureButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                captureCallback(v);
+            }
+        });
     }
 
     // initializes the size of the strike zone based on the height of the screen
@@ -79,6 +90,12 @@ public class Home extends AppCompatActivity {
 
         // request layout
         strikeZoneBox.requestLayout();
+    }
+
+    // the callback for the recording button
+    protected void captureCallback(View v) {
+        Log.d(TAG, "Starting capture...");
+        cameraManager.startVideo();
     }
 
 }

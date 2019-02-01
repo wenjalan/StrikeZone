@@ -4,23 +4,33 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.hardware.Camera;
+import android.media.MediaRecorder;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
+import java.io.IOException;
+
 // Manages the Camera functionality through Android
+// Supports both Video and Photos
 @SuppressWarnings("ALL")
 public class CameraManager {
 
     // debug tag
     protected static final String TAG = "SZ-CameraManager";
 
+    // filepath to store the video
+    public static final String CAPTURE_FILEPATH = "capture/capture.mpg";
+
     // the context this CameraManager belongs to
     protected final Context context;
 
     // the Camera object
     protected Camera camera;
+
+    // the MediaRecorder object
+    protected MediaRecorder mediaRecorder;
 
     // the CameraPreview object
     protected CameraPreview cameraPreview;
@@ -46,6 +56,25 @@ public class CameraManager {
 
     // initialization
     protected void init() {
+        initCamera();
+        initMediaRecorder(); // media recorder relies in Camera, so init Camera first
+    }
+
+    // initialization of MediaRecorder
+    protected void initMediaRecorder() {
+        mediaRecorder = new MediaRecorder();
+        mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
+        mediaRecorder.setOutputFile(CAPTURE_FILEPATH);
+        try {
+            mediaRecorder.prepare();
+        } catch (IOException e) {
+            Log.d(TAG, "Failed to initialize MediaRecorder!");
+            e.printStackTrace();
+        }
+    }
+
+    // initialization
+    protected void initCamera() {
         // log
         Log.d(TAG, "Initializing Camera...");
 
@@ -85,12 +114,6 @@ public class CameraManager {
         return c;
     }
 
-    // called by pictureCallback onPictureTaken
-    protected void pictureTaken(byte[] data, Camera camera) {
-        // log
-        Log.d(TAG, "Picture taken");
-    }
-
     // adds a capture button to this camera
     public void addCaptureButton(Button button) {
         button.setOnClickListener(new View.OnClickListener() {
@@ -114,12 +137,35 @@ public class CameraManager {
     }
 
     // releases the camera
-    public void releaseCamera() {
+    public void release() {
         if (camera != null) {
             camera.release();
             camera = null;
-            Log.d(TAG, "Released camera!");
+            mediaRecorder.release();
+            mediaRecorder = null;
+            Log.d(TAG, "Released Camera and MediaRecorder!");
         }
+    }
+
+    // takes a picture
+    public void takePicture() {
+        camera.takePicture(null, null, pictureCallback);
+    }
+
+    // takes a video
+    public void startVideo() {
+        mediaRecorder.start();
+    }
+
+    // stops a video recording
+    public void stopVideo() {
+        mediaRecorder.stop();
+    }
+
+    // called by pictureCallback onPictureTaken
+    protected void pictureTaken(byte[] data, Camera camera) {
+        // log
+        Log.d(TAG, "Picture taken");
     }
 
     // returns the cameraPreview
