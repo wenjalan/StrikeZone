@@ -15,6 +15,12 @@ import wenjalan.strikezone.hardware.CameraManager;
 // Home Activity
 public class Home extends AppCompatActivity {
 
+    // the ViewFinder properties
+    public static final float VF_SCREEN2HEIGHT_RATIO = 4;
+    public static final float VF_SCREEN2WIDTH_RATIO = 4;
+//    public static final float VF_Y_OFFSET = 0;
+//    public static final float VF_X_OFFSET = 0;
+
     // tag
     protected static final String TAG = "SZ-Home";
 
@@ -76,10 +82,13 @@ public class Home extends AppCompatActivity {
                 int containerWidth = container.getWidth();
                 int containerHeight = container.getHeight();
 
+                // log
+                // Log.d(TAG, "Got screen height/width of " + containerHeight + "/" + containerWidth);
+
                 // set the width and height of the box according to the ratio specified
                 ViewGroup.LayoutParams params = strikeZoneBox.getLayoutParams();
-                params.height = containerHeight / 2;
-                params.width = containerWidth / 2;
+                params.height = (int) (containerHeight / VF_SCREEN2HEIGHT_RATIO);
+                params.width = (int) (containerWidth / VF_SCREEN2WIDTH_RATIO);
 
                 // request layout
                 strikeZoneBox.requestLayout();

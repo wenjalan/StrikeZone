@@ -20,6 +20,9 @@ public class CameraManager {
     // debug tag
     protected static final String TAG = "SZ-CameraManager";
 
+    // the default FPS the camera records at
+    public static final int FPS = 60;
+
     // filepath to store the video
     public static final String CAPTURE_FILEPATH = "capture/capture.mpg";
 
@@ -63,7 +66,10 @@ public class CameraManager {
     // initialization of MediaRecorder
     protected void initMediaRecorder() {
         mediaRecorder = new MediaRecorder();
+        mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
         mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
+        mediaRecorder.setVideoFrameRate(FPS);
+        mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.MPEG_4_SP);
         mediaRecorder.setOutputFile(CAPTURE_FILEPATH);
         try {
             mediaRecorder.prepare();
