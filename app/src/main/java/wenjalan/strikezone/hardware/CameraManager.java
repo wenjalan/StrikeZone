@@ -30,6 +30,9 @@ public class CameraManager {
     // filepath to store the video
     public static final String CAPTURE_FILEPATH = "capture/capture.mpg";
 
+    // the output file
+    protected File outputFile = null;
+
     // the context this CameraManager belongs to
     protected final Context context;
 
@@ -69,34 +72,22 @@ public class CameraManager {
 
     // initialization of MediaRecorder
     protected void initMediaRecorder() {
-        mediaRecorder = new MediaRecorder();
-
-//        mediaRecorder.setOutputFile(CAPTURE_FILEPATH);
-//        mediaRecorder.setCamera(this.camera);
-//
-//        mediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
-//        mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
-//
-//        mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.DEFAULT);
-//
-//        mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.DEFAULT);
-//        mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
-
-        File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
-        File outputFile = new File(path, "capture.mpg");
-
-        mediaRecorder.setCamera(this.camera);
-        mediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
-        mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
-        CamcorderProfile profile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
-        mediaRecorder.setProfile(profile);
-        mediaRecorder.setOutputFile(outputFile);
-//        mediaRecorder.setMaxDuration(5_000_000); // 5 seconds
-//        mediaRecorder.setMaxFileSize(5_000_000); // 5 Mb
-
+        if (outputFile == null) {
+            File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+            outputFile = new File(path, "capture.mpg");
+            Log.d(TAG, "Output file location: " + path.getPath());
+        }
+        if (mediaRecorder == null) {
+            mediaRecorder = new MediaRecorder();mediaRecorder.setCamera(this.camera);
+            mediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
+            mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
+            CamcorderProfile profile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
+            mediaRecorder.setProfile(profile);
+            mediaRecorder.setOutputFile(outputFile);
+            Log.d(TAG, "Configured MediaRecorder");
+        }
         try {
             mediaRecorder.prepare();
-            Log.d(TAG, "Output file location: " + path.getPath());
         } catch (IOException e) {
             Log.d(TAG, "Failed to initialize MediaRecorder!");
             e.printStackTrace();
@@ -184,6 +175,7 @@ public class CameraManager {
     // releases the media recorder
     protected void releaseMediaRecorder() {
         if (mediaRecorder != null) {
+            mediaRecorder.reset();
             mediaRecorder.release();
             mediaRecorder = null;
             Log.d(TAG, "Released MediaRecorder!");
@@ -197,6 +189,7 @@ public class CameraManager {
 
     // takes a video
     public void startVideo() {
+        if (mediaRecorder == null) initMediaRecorder();
         this.camera.stopPreview();
         this.camera.unlock();
         mediaRecorder.start();
@@ -205,6 +198,7 @@ public class CameraManager {
     // stops a video recording
     public void stopVideo() {
         mediaRecorder.stop();
+        releaseMediaRecorder();
     }
 
     // called by pictureCallback onPictureTaken
