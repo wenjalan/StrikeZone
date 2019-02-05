@@ -4,12 +4,16 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.hardware.Camera;
+import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
+import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
+import java.io.File;
+import java.io.FileDescriptor;
 import java.io.IOException;
 
 // Manages the Camera functionality through Android
@@ -66,13 +70,33 @@ public class CameraManager {
     // initialization of MediaRecorder
     protected void initMediaRecorder() {
         mediaRecorder = new MediaRecorder();
+
+//        mediaRecorder.setOutputFile(CAPTURE_FILEPATH);
+//        mediaRecorder.setCamera(this.camera);
+//
+//        mediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
+//        mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
+//
+//        mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.DEFAULT);
+//
+//        mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.DEFAULT);
+//        mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
+
+        File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+        File outputFile = new File(path, "capture.mpg");
+
+        mediaRecorder.setCamera(this.camera);
+        mediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
         mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
-        mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
-        mediaRecorder.setVideoFrameRate(FPS);
-        mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.MPEG_4_SP);
-        mediaRecorder.setOutputFile(CAPTURE_FILEPATH);
+        CamcorderProfile profile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
+        mediaRecorder.setProfile(profile);
+        mediaRecorder.setOutputFile(outputFile);
+//        mediaRecorder.setMaxDuration(5_000_000); // 5 seconds
+//        mediaRecorder.setMaxFileSize(5_000_000); // 5 Mb
+
         try {
             mediaRecorder.prepare();
+            Log.d(TAG, "Output file location: " + path.getPath());
         } catch (IOException e) {
             Log.d(TAG, "Failed to initialize MediaRecorder!");
             e.printStackTrace();
@@ -142,14 +166,27 @@ public class CameraManager {
         }
     }
 
-    // releases the camera
+    // releases the camera and media recorder
     public void release() {
+        releaseCamera();
+        releaseMediaRecorder();
+    }
+
+    // releases the camera
+    protected void releaseCamera() {
         if (camera != null) {
             camera.release();
             camera = null;
+            Log.d(TAG, "Released Camera!");
+        }
+    }
+
+    // releases the media recorder
+    protected void releaseMediaRecorder() {
+        if (mediaRecorder != null) {
             mediaRecorder.release();
             mediaRecorder = null;
-            Log.d(TAG, "Released Camera and MediaRecorder!");
+            Log.d(TAG, "Released MediaRecorder!");
         }
     }
 
@@ -160,6 +197,8 @@ public class CameraManager {
 
     // takes a video
     public void startVideo() {
+        this.camera.stopPreview();
+        this.camera.unlock();
         mediaRecorder.start();
     }
 

@@ -65,6 +65,15 @@ public class Home extends AppCompatActivity {
                 captureCallback(v);
             }
         });
+
+        // initialize stop recording button
+        final Button stopCaptureButton = findViewById(R.id.StopCaptureButton);
+        stopCaptureButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                stopCaptureCallback(v);
+            }
+        });
     }
 
     // initializes the size of the strike zone based on the height of the screen
@@ -105,6 +114,12 @@ public class Home extends AppCompatActivity {
     protected void captureCallback(View v) {
         Log.d(TAG, "Starting capture...");
         cameraManager.startVideo();
+    }
+
+    // the callback for the stop recording button
+    protected void stopCaptureCallback(View v) {
+        Log.d(TAG, "Stopping capture...");
+        cameraManager.stopVideo();
     }
 
 }
