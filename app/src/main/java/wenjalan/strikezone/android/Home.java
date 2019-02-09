@@ -1,5 +1,6 @@
 package wenjalan.strikezone.android;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -120,6 +121,10 @@ public class Home extends AppCompatActivity {
     protected void stopCaptureCallback(View v) {
         Log.d(TAG, "Stopping capture...");
         cameraManager.stopVideo();
+
+        // start replay activity
+        Intent i = new Intent(this, Replay.class);
+        startActivity(i);
     }
 
 }
