@@ -46,6 +46,7 @@ public class Replay extends AppCompatActivity implements MediaController.MediaPl
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        pause();
     }
 
     @Override

@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db7bd79-be0b-4aa4-a263-04e2ff675339" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Replay.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Replay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_replay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_replay.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5361" />
+          <entry key="java" value="5519" />
           <entry key="txt" value="77" />
           <entry key="xml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5361" />
+          <entry key="JAVA" value="5519" />
           <entry key="PLAIN_TEXT" value="77" />
           <entry key="XML" value="79" />
         </counts>
@@ -71,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="108" selection-end-column="38" />
+            <state relative-caret-position="482">
+              <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,7 +83,7 @@
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Replay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -154,8 +151,8 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_replay.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Replay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java" />
       </list>
     </option>
   </component>
@@ -388,13 +385,6 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="108" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/hardware/CameraManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
@@ -440,6 +430,13 @@
             <element signature="e#4768#4769#0" expanded="true" />
             <element signature="e#4792#4793#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wenjalan/strikezone/android/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
         </state>
       </provider>
     </entry>

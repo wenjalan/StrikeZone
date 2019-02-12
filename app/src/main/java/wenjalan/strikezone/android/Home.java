@@ -28,6 +28,9 @@ public class Home extends AppCompatActivity {
     // the CameraManager
     protected CameraManager cameraManager;
 
+    // whether we're recording or not
+    protected boolean isRecording = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,18 +114,25 @@ public class Home extends AppCompatActivity {
 
     // the callback for the recording button
     protected void captureCallback(View v) {
-        Log.d(TAG, "Starting capture...");
-        cameraManager.startVideo();
+        if (!this.isRecording) {
+            Log.d(TAG, "Starting capture...");
+            cameraManager.startVideo();
+            this.isRecording = true;
+        }
     }
 
     // the callback for the stop recording button
     protected void stopCaptureCallback(View v) {
-        Log.d(TAG, "Stopping capture...");
-        cameraManager.stopVideo();
+        if (this.isRecording) {
+            Log.d(TAG, "Stopping capture...");
+            cameraManager.stopVideo();
 
-        // start replay activity
-        Intent i = new Intent(this, Replay.class);
-        startActivity(i);
+            this.isRecording = false;
+
+            // start replay activity
+            Intent i = new Intent(this, Replay.class);
+            startActivity(i);
+        }
     }
 
 }
