@@ -4,13 +4,16 @@ import android.graphics.SurfaceTexture;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Environment;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.Surface;
 import android.view.TextureView;
 import android.view.ViewGroup;
+import android.widget.MediaController;
 import android.widget.VideoView;
 
 import java.io.IOException;
@@ -18,9 +21,13 @@ import java.io.IOException;
 import wenjalan.strikezone.R;
 import wenjalan.strikezone.hardware.CameraManager;
 
-public class Replay extends AppCompatActivity {
+public class Replay extends AppCompatActivity implements MediaController.MediaPlayerControl, MediaPlayer.OnPreparedListener {
 
     protected static final String TAG = "SZ-Replay";
+
+    protected MediaPlayer mediaPlayer;
+
+    protected MediaController mediaController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +41,12 @@ public class Replay extends AppCompatActivity {
         super.onDestroy();
     }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent e) {
+        mediaController.show();
+        return false;
+    }
+
     // initializes the activity
     protected void init() {
         // init VideoView
@@ -43,7 +56,12 @@ public class Replay extends AppCompatActivity {
     // initializes VideoView
     protected void initVideoView() {
         final TextureView view = findViewById(R.id.TextureView);
-        final MediaPlayer mediaPlayer = new MediaPlayer();
+        this.mediaPlayer = new MediaPlayer();
+
+        // init MediaController
+        mediaController = new MediaController(this);
+
+        mediaPlayer.setOnPreparedListener(this);
         final String path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/capture.mpg";
 
         view.setSurfaceTextureListener(new TextureView.SurfaceTextureListener() {
@@ -58,8 +76,6 @@ public class Replay extends AppCompatActivity {
 
                     // resize the view
                     resizeView(view, mediaPlayer);
-
-                    mediaPlayer.start();
                 } catch (IOException e) {
                     Log.d(TAG, "Failed to load video!");
                     e.printStackTrace();
@@ -110,6 +126,76 @@ public class Replay extends AppCompatActivity {
         textureView.setScaleX(1.00001f);
         textureView.requestLayout();
         textureView.invalidate();
+    }
+
+    // on MediaPlayer prepared
+    @Override
+    public void onPrepared(final MediaPlayer mediaPlayer) {
+        mediaController.setMediaPlayer(this);
+        mediaController.setAnchorView(findViewById(R.id.ReplayLayout));
+        new Handler().post(new Runnable() {
+            @Override
+            public void run() {
+                mediaController.setEnabled(true);
+                mediaController.show();
+            }
+        });
+    }
+
+    // MediaController implements
+    @Override
+    public void start() {
+        mediaPlayer.start();
+    }
+
+    @Override
+    public void pause() {
+        mediaPlayer.pause();
+    }
+
+    @Override
+    public int getDuration() {
+        return mediaPlayer.getDuration();
+    }
+
+    @Override
+    public int getCurrentPosition() {
+        return mediaPlayer.getCurrentPosition();
+    }
+
+    @Override
+    public void seekTo(int i) {
+        mediaPlayer.seekTo(i);
+    }
+
+    @Override
+    public boolean isPlaying() {
+        return mediaPlayer.isPlaying();
+    }
+
+    @Override
+    public int getBufferPercentage() {
+        return 0;
+    }
+
+    @Override
+    public boolean canPause() {
+        return true;
+    }
+
+    @Override
+    public boolean canSeekBackward() {
+        return true;
+    }
+
+    @Override
+    public boolean canSeekForward() {
+        return true;
+    }
+
+    @Override
+    public int getAudioSessionId() {
+        return mediaPlayer.getAudioSessionId();
     }
 
 }
