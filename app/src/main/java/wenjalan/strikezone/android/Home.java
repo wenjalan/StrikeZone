@@ -105,8 +105,6 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        // find the height of the screen
-
         // request layout
         strikeZoneBox.requestLayout();
     }

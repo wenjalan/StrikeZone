@@ -12,7 +12,9 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.Surface;
 import android.view.TextureView;
+import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
@@ -28,6 +30,11 @@ public class Replay extends AppCompatActivity implements MediaController.MediaPl
     protected MediaPlayer mediaPlayer;
 
     protected MediaController mediaController;
+
+    // the scale of the strikezone box, in relation to the screen
+    public static final int SCREEN2BOXH = 2;
+    public static final int SCREEN2BOXW = 2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +58,41 @@ public class Replay extends AppCompatActivity implements MediaController.MediaPl
     protected void init() {
         // init VideoView
         initVideoView();
+
+        // init box
+        initStrikeZone();
+    }
+
+    // initializes the Strike Zone Box
+    protected void initStrikeZone() {
+        // get the box
+        final View strikeZoneBox = findViewById(R.id.ReplayStrikeZoneBox);
+
+        // resize it according to the dimensions of the screen
+        // once the initial layout has been completed
+        strikeZoneBox.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @Override
+            public void onGlobalLayout() {
+                // get the size of the constraint layout this view resides in
+                View container = (View) strikeZoneBox.getParent();
+                int containerWidth = container.getWidth();
+                int containerHeight = container.getHeight();
+
+                // log
+                // Log.d(TAG, "Got screen height/width of " + containerHeight + "/" + containerWidth);
+
+                // set the width and height of the box according to the ratio specified
+                ViewGroup.LayoutParams params = strikeZoneBox.getLayoutParams();
+                params.height = (int) (containerHeight / SCREEN2BOXH);
+                params.width = (int) (containerWidth / SCREEN2BOXW);
+
+                // request layout
+                strikeZoneBox.requestLayout();
+            }
+        });
+
+        // request layout
+        strikeZoneBox.requestLayout();
     }
 
     // initializes VideoView
@@ -140,6 +182,7 @@ public class Replay extends AppCompatActivity implements MediaController.MediaPl
                 mediaController.show();
             }
         });
+        start();
     }
 
     // MediaController implements
